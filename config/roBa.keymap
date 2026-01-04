@@ -77,6 +77,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        eisu {
+            bindings = <&kp LANGUAGE_2>;
+            key-positions = <7 8>;
+        };
+
+        kana {
+            bindings = <&kp LANGUAGE_1>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
@@ -115,10 +125,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESC  &trans         &kp LC(LG(LS(NUMBER_4)))  &trans     &trans                              &kp F1       &kp HOME        &kp UP_ARROW    &kp END          &kp F5
-&trans   &kp LEFT_GUI   &kp LEFT_ALT              &kp LG(C)  &kp LG(LS(V))  &trans      &kp F13  &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&trans   &kp LA(SPACE)  &trans                    &trans     &trans         &trans      &trans   &trans       &trans          &trans          &trans           &kp F11
-&trans   &trans         &trans                    &trans     &trans         &trans      &trans   &trans                                                        &kp F12
+&kp ESC  &trans         &kp LC(LG(LS(NUMBER_4)))  &trans     &trans                                 &kp F1       &kp HOME        &kp UP_ARROW    &kp END          &kp F5
+&trans   &kp LEFT_GUI   &kp LEFT_ALT              &kp LG(C)  &kp LG(LS(V))  &trans      &kp F13     &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&trans   &kp LA(SPACE)  &trans                    &trans     &trans         &trans      &trans      &trans       &trans          &trans          &trans           &kp F11
+&trans   &trans         &trans                    &trans     &trans         &trans      &kp DELETE  &trans                                                        &kp F12
             >;
         };
 
