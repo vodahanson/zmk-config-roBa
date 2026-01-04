@@ -144,7 +144,7 @@
         ARROW {
             bindings = <
 &kp LS(NUMBER_1)  &kp LS(NUMBER_2)      &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)                      &kp LS(NUMBER_6)   &kp LS(NUMBER_7)      &kp LS(NUMBER_8)       &kp LS(NUMBER_9)   &kp LS(NUMBER_0)
-&kp EQUAL         &kp LEFT_BRACKET      &kp SLASH         &kp MINUS         &kp UNDER         &trans      &trans  &kp SEMICOLON      &kp SINGLE_QUOTE      &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT_YEN
+&kp EQUAL         &kp LEFT_BRACKET      &kp SLASH         &kp MINUS         &kp LS(0x87)          &trans      &trans  &kp SEMICOLON      &kp SINGLE_QUOTE      &kp RIGHT_BRACKET      &kp BACKSLASH      &kp INT_YEN
 &kp LS(EQUAL)     &kp LS(LEFT_BRACKET)  &kp LS(SLASH)     &kp LS(MINUS)     &trans            &trans      &trans  &kp LS(SEMICOLON)  &kp LS(SINGLE_QUOTE)  &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)  &kp LS(INT_YEN)
 &trans            &trans                &trans            &trans            &trans            &trans      &trans  &trans                                                                             &trans
             >;
