@@ -114,10 +114,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                                                    &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F                   &kp G                 &kp LS(LG(S))                      &kp MINUS       &kp H        &kp J  &kp K      &kp L    &mt RCTRL MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B                 &kp LEFT_ALT                       &lt 6 LEFT_WIN  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 SPACE  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE   &lt 1 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                   &kp T                                                            &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F                   &kp G                 &kp LS(LG(S))             &lt 6 SEMICOLON  &kp H        &kp J  &kp K      &kp L    &mt RCTRL MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B                 &kp LEFT_GUI              &kp LEFT_ALT     &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 SPACE  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE    &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -134,10 +134,10 @@
 
         NUM {
             bindings = <
-&kp F1                      &kp F2           &kp F3           &kp F4           &kp F5                                                     &kp F6            &kp F7             &kp F8          &kp F9        &kp F10
-&kp NUMBER_1                &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4     &kp NUMBER_5  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_6      &kp NUMBER_7       &kp NUMBER_8    &kp NUMBER_9  &kp NUMBER_0
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp F11       &kp F12
-&trans                      &trans           &trans           &trans           &trans        &trans                       &trans          &trans                                                             &kp PIPE
+&kp F1                       &kp F2            &kp F3            &kp F4            &kp F5                                                         &kp F6            &kp F7            &kp F8            &kp F9            &kp F10
+&mt RCTRL NUMBER_1           &kp NUMBER_2      &kp NUMBER_3      &kp NUMBER_4      &kp NUMBER_5      &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_6      &kp NUMBER_7      &kp NUMBER_8      &kp NUMBER_9      &mt RCTRL NUMBER_0
+&mt LEFT_SHIFT LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &kp F11                      &kp F12         &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(NUMBER_0)
+&trans                       &trans            &trans            &trans            &trans            &trans                       &trans          &trans                                                                  &kp PIPE
             >;
         };
 
