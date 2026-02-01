@@ -133,6 +133,8 @@
 &kp LA(SPACE)  &kp RC(SPACE)  &kp LEFT_GUI              &kp RC(SPACE)  &trans         &trans      &trans   &trans       &kp LS(SPACE)   &trans          &trans           &kp F11
 &trans         &trans         &trans                    &trans         &trans         &trans      &trans   &trans                                                        &kp F12
             >;
+
+            sensor-bindings = <&inc_dec_kp LANGUAGE_1 LANGUAGE_2>;
         };
 
         NUM {
