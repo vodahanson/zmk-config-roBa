@@ -26,7 +26,6 @@
 #define JP_KANA         LANGUAGE_1        // かな
 #define JP_EISU         LANGUAGE_2        // 英数
 #define JP_HANZEN       GRAVE             // 半角/全角
-
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
 &mt {
@@ -106,15 +105,8 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-            tap-ms = <20>;
-        };
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
 
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
+            tap-ms = <20>;
         };
     };
 
@@ -129,16 +121,17 @@
 &kp LCTRL         &kp LEFT_ALT  &kp LEFT_GUI  &lt_to_layer_0 2 LANGUAGE_1  &mt LEFT_SHIFT SPACE  &lt_to_layer_0 3 TAB      &kp BACKSPACE    &lt 1 ENTER                             &kp DEL
             >;
 
-//            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
-              sensor-bindings = <&encoder_msc_down_up>;
+            //            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         FUNCTION {
             bindings = <
-&kp ESC        &kp LG(Z)      &kp LC(LG(LS(NUMBER_4)))  &kp LS(F10)    &trans                                 &kp F1       &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&kp RCTRL      &kp LS(RCTRL)  &kp LEFT_ALT              &kp LG(C)      &kp LG(LS(V))  &trans      &kp F13     &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LA(SPACE)  &kp RC(SPACE)  &kp LEFT_GUI              &kp RC(SPACE)  &trans         &trans      &trans      &trans       &kp LS(SPACE)   &trans          &trans           &kp F11
-&trans         &trans         &trans                    &trans         &trans         &trans      &kp DELETE  &trans                                                        &kp F12
+&kp ESC        &kp LG(Z)      &kp LC(LG(LS(NUMBER_4)))  &kp LS(F10)    &trans                              &kp F1       &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&kp RCTRL      &kp LS(RCTRL)  &kp LEFT_ALT              &kp LG(C)      &kp LG(LS(V))  &trans      &kp F13  &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LA(SPACE)  &kp RC(SPACE)  &kp LEFT_GUI              &kp RC(SPACE)  &trans         &trans      &trans   &trans       &kp LS(SPACE)   &trans          &trans           &kp F11
+&trans         &trans         &trans                    &trans         &trans         &trans      &trans   &trans                                                        &kp F12
             >;
         };
 
