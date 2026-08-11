@@ -111,6 +111,13 @@
             bindings = <&none &bt BT_SEL 4 &to 0>;
             label = "TO_WIN";
         };
+
+        MAC_PW: MAC_PW {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp X &kp S &kp N4 &kp Q &kp H &kp N>;
+            label = "MAC_PW";
+        };
     };
 
     behaviors {
@@ -142,10 +149,10 @@
 
         func_mac {
             bindings = <
-&kp ESC        &kp LG(Z)      &kp LC(LG(LS(NUMBER_4)))  &kp LS(F10)    &trans                              &kp F1       &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
-&kp RCTRL      &kp LS(RCTRL)  &kp LEFT_ALT              &kp LG(C)      &kp LG(LS(V))  &trans      &kp F13  &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
-&kp LA(SPACE)  &kp RC(SPACE)  &kp LEFT_GUI              &kp RC(SPACE)  &trans         &trans      &trans   &trans       &kp LS(SPACE)   &trans          &trans           &kp F11
-&trans         &trans         &trans                    &trans         &trans         &trans      &trans   &trans                                                        &kp F12
+&kp ESC        &kp LG(Z)      &kp LC(LG(LS(NUMBER_4)))  &kp LS(F10)    &trans                               &kp F1       &kp HOME        &kp UP_ARROW    &kp END          &kp DELETE
+&kp RCTRL      &kp LS(RCTRL)  &kp LEFT_ALT              &kp LG(C)      &kp LG(LS(V))  &trans       &kp F13  &kp PAGE_UP  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN
+&kp LA(SPACE)  &kp RC(SPACE)  &kp LEFT_GUI              &kp RC(SPACE)  &trans         &MAC_PW      &trans   &trans       &kp LS(SPACE)   &trans          &trans           &kp F11
+&trans         &trans         &trans                    &trans         &trans         &trans       &trans   &trans                                                        &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp LANGUAGE_1 LANGUAGE_2>;
@@ -230,7 +237,7 @@
         BT {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &trans        &trans        &trans        &trans  &trans      &trans       &bt BT_SEL 1  &bt BT_SEL 2  &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
             >;
