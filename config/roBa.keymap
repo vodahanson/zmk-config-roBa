@@ -153,7 +153,7 @@
 
             tap-ms = <20>;
         };
-j
+
         tog_off: toggle_layer_off {
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
