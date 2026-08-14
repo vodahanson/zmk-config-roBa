@@ -174,7 +174,7 @@
 &kp Q             &kp W         &kp E         &kp R         &kp T                                                      &kp Y        &kp U  &lt 9 I    &kp O           &kp P
 &mt RCTRL A       &kp S         &kp D         &kp F         &kp G                 &kp LS(LG(S))      &lt 10 SEMICOLON  &kp H        &kp J  &kp K      &mt LEFT_ALT L  &mt RCTRL MINUS
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B                 &kp LEFT_WIN       &lt 6 LANGUAGE_2  &kp N        &kp M  &kp COMMA  &kp DOT         &mt RIGHT_SHIFT SLASH
-&none             &kp LEFT_ALT  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 7 TAB          &kp BACKSPACE     &lt 1 ENTER                                    &lt 6 LANGUAGE_1
+&none             &kp LEFT_ALT  &kp LEFT_ALT  &kp LEFT_GUI  &mt LEFT_SHIFT SPACE  &lt 7 TAB          &kp BACKSPACE     &lt 1 ENTER                                    &kp LANGUAGE_1
             >;
 
             //            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
