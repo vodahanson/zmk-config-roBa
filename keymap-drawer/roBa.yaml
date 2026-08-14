@@ -28,7 +28,7 @@ layers:
   - C
   - V
   - B
-  - LEFT GUI
+  - LEFT WIN
   - LEFT ALT
   - N
   - M
@@ -38,7 +38,7 @@ layers:
   - LCTRL
   - LEFT ALT
   - LEFT ALT
-  - LEFT WIN
+  - {t: LEFT GUI, h: NUM_com}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
@@ -302,12 +302,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT GUI
-  - {t: '|', type: held}
+  - '|'
   sym_com:
   - Sft+1
   - Sft+2
@@ -352,7 +352,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  MOUSE:
+  '8':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
