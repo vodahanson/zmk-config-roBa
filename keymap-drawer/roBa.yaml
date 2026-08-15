@@ -13,14 +13,14 @@ layers:
   - P
   - {t: A, h: RCTRL}
   - S
-  - D
-  - F
+  - {t: D, h: LEFT WIN}
+  - {t: F, h: LEFT ALT}
   - G
   - Sft+Gui+S
   - {t: ;, h: BT}
   - H
-  - J
-  - K
+  - {t: J, h: LEFT ALT}
+  - {t: K, h: LEFT GUI}
   - L
   - {t: '-', h: RCTRL}
   - {t: Z, h: LEFT SHIFT}
@@ -28,28 +28,28 @@ layers:
   - C
   - V
   - B
-  - LEFT WIN
-  - LEFT ALT
+  - ESC
+  - {t: LANGUAGE 2, h: NUM_com}
   - N
   - M
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - LCTRL
+  - ''
   - LEFT ALT
-  - LEFT ALT
-  - {t: LEFT GUI, h: NUM_com}
+  - LEFT GUI
+  - {t: LANGUAGE 1, h: NUM_com}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
   - {t: ENTER, h: func_mac}
-  - {t: LANGUAGE 1, h: NUM_com}
+  - LANGUAGE 1
   func_mac:
   - ESC
   - Gui+Z
-  - Ctl+Gui+Sft+4
-  - Sft+F10
-  - {t: ▽, type: trans}
+  - Gui+Sft+5
+  - Sft+Gui+4
+  - Gui+C
   - F1
   - HOME
   - UP ARROW
@@ -57,8 +57,8 @@ layers:
   - DELETE
   - RCTRL
   - Sft+RCTRL
+  - LEFT GUI
   - LEFT ALT
-  - Gui+C
   - Gui+Sft+V
   - {t: ▽, type: trans}
   - F13
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -182,7 +182,7 @@ layers:
   - Ctl+Gui+Sft+4
   - Sft+F10
   - {t: ▽, type: trans}
-  - F1
+  - Sft+F10
   - HOME
   - UP ARROW
   - END
@@ -293,7 +293,7 @@ layers:
   - Gui+4
   - Gui+5
   - F11
-  - F12
+  - {t: F12, type: held}
   - Gui+6
   - Gui+7
   - Gui+8
@@ -302,7 +302,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -458,8 +458,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
+  - '&TO_MAC'
+  - '&TO_WIN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -491,11 +491,9 @@ combos:
   k: Sft+TAB
 - p: [11, 10]
   k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
 - p: [7, 8]
   k: LANGUAGE 2
 - p: [1, 2]
   k: LANGUAGE 1
+- p: [41, 35]
+  k: BT
