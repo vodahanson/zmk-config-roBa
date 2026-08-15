@@ -91,16 +91,25 @@
         GUIcombo {
             bindings = <&kp RIGHT_GUI>;
             key-positions = <18 19>;
+            slow-release;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <100>;
         };
 
         ALTcombo {
             bindings = <&kp RIGHT_ALT>;
             key-positions = <19 20>;
+            slow-release;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <100>;
         };
 
         shiftCombo {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <20 21>;
+            slow-release;
+            timeout-ms = <70>;
+            require-prior-idle-ms = <100>;
         };
     };
 
