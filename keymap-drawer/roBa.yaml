@@ -12,7 +12,7 @@ layers:
   - O
   - P
   - {t: A, h: RCTRL}
-  - S
+  - {t: S, h: LEFT SHIFT}
   - {t: D, h: LEFT WIN}
   - {t: F, h: LEFT ALT}
   - G
@@ -29,7 +29,7 @@ layers:
   - V
   - B
   - ESC
-  - {t: LANGUAGE 2, h: NUM_com}
+  - {t: DELETE, h: NUM_com}
   - N
   - M
   - ','
@@ -501,3 +501,5 @@ combos:
   k: RIGHT GUI
 - p: [18, 19]
   k: RIGHT ALT
+- p: [20, 21]
+  k: LEFT SHIFT
