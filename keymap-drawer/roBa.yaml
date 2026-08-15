@@ -19,8 +19,8 @@ layers:
   - Sft+Gui+S
   - {t: ;, h: BT}
   - H
-  - {t: J, h: LEFT ALT}
-  - {t: K, h: LEFT GUI}
+  - J
+  - K
   - L
   - {t: '-', h: RCTRL}
   - {t: Z, h: LEFT SHIFT}
@@ -38,7 +38,7 @@ layers:
   - ''
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 1, h: NUM_com}
+  - {t: LANGUAGE 2, h: NUM_com}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
@@ -72,7 +72,7 @@ layers:
   - LEFT GUI
   - Ctl+SPACE
   - {t: ▽, type: trans}
-  - '&MAC_PW'
+  - '&MAC_P'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+SPACE
@@ -82,7 +82,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANGUAGE 2
+  - LANGUAGE 1
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -495,5 +495,9 @@ combos:
   k: LANGUAGE 2
 - p: [1, 2]
   k: LANGUAGE 1
-- p: [41, 35]
+- p: [41, 36]
   k: BT
+- p: [19, 20]
+  k: RIGHT GUI
+- p: [18, 19]
+  k: RIGHT ALT
