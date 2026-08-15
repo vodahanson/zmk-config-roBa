@@ -85,7 +85,17 @@
 
         To_layer10 {
             bindings = <&mo 10>;
-            key-positions = <41 35>;
+            key-positions = <41 36>;
+        };
+
+        GUI {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <19 20>;
+        };
+
+        ALT {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <18 19>;
         };
     };
 
