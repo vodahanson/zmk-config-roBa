@@ -292,10 +292,10 @@
 
         BASE_WIN {
             bindings = <
-&kp Q                             &kp W                             &kp E                        &kp R                        &kp T                                                      &kp Y        &kp U  &lt 9 I    &kp O    &kp P
-&hmr_left_ShiftCrtl RCTRL A       &hmr_left_ShiftCrtl LEFT_SHIFT S  &hmr_left_AltGui LEFT_ALT D  &hmr_left_AltGui LEFT_GUI F  &kp G                 &kp LS(LG(S))      &lt 10 SEMICOLON  &kp H        &kp J  &kp K      &kp L    &mt RCTRL MINUS
-&hmr_left_ShiftCrtl LEFT_SHIFT Z  &kp X                             &kp C                        &kp V                        &kp B                 &kp ESC            &lt 6 DELETE      &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&none                             &kp LEFT_ALT                      &kp LEFT_GUI                 &lang_tapdance               &mt LEFT_SHIFT SPACE  &lt 7 TAB          &kp BACKSPACE     &lt 4 ENTER                             &kp LANGUAGE_1
+&kp Q                             &kp W                             &kp E                        &kp R                        &kp T                                                  &kp Y        &kp U  &lt 9 I    &kp O    &kp P
+&hmr_left_ShiftCrtl RCTRL A       &hmr_left_ShiftCrtl LEFT_SHIFT S  &hmr_left_AltGui LEFT_ALT D  &hmr_left_AltGui LEFT_GUI F  &kp G                 &mkp MB3       &lt 10 SEMICOLON  &kp H        &kp J  &kp K      &kp L    &mt RCTRL MINUS
+&hmr_left_ShiftCrtl LEFT_SHIFT Z  &kp X                             &kp C                        &kp V                        &kp B                 &kp ESC        &lt 6 DELETE      &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&none                             &kp LEFT_ALT                      &kp LEFT_GUI                 &lt 6 LANGUAGE_2             &mt LEFT_SHIFT SPACE  &lt 7 TAB      &kp BACKSPACE     &lt 4 ENTER                             &kp LANGUAGE_1
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
