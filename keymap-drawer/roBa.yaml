@@ -13,8 +13,8 @@ layers:
   - P
   - {t: A, h: RCTRL}
   - {t: S, h: LEFT SHIFT}
-  - {t: D, h: LEFT WIN}
-  - {t: F, h: LEFT ALT}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT GUI}
   - G
   - Sft+Gui+S
   - {t: ;, h: BT}
@@ -38,7 +38,7 @@ layers:
   - ''
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 2, h: NUM_com}
+  - '&lang_tapdance'
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
@@ -57,8 +57,8 @@ layers:
   - DELETE
   - RCTRL
   - Sft+RCTRL
-  - LEFT GUI
   - LEFT ALT
+  - LEFT WIN
   - Gui+Sft+V
   - {t: ▽, type: trans}
   - F13
@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  base_win:
+  BASE_WIN:
   - Q
   - W
   - E
@@ -144,9 +144,9 @@ layers:
   - O
   - P
   - {t: A, h: RCTRL}
-  - S
-  - D
-  - F
+  - {t: S, h: LEFT SHIFT}
+  - {t: D, h: LEFT ALT}
+  - {t: F, h: LEFT GUI}
   - G
   - Sft+Gui+S
   - {t: ;, h: BT}
@@ -160,26 +160,26 @@ layers:
   - C
   - V
   - B
-  - LEFT GUI
-  - LEFT ALT
+  - ESC
+  - {t: DELETE, h: NUM_com}
   - N
   - M
   - ','
   - .
   - {t: /, h: RIGHT SHIFT}
-  - LCTRL
+  - ''
   - LEFT ALT
   - LEFT GUI
-  - {t: LANGUAGE 1, h: NUM_com}
+  - '&lang_tapdance'
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
   - {t: ENTER, h: func_win}
-  - DEL
+  - LANGUAGE 1
   func_win:
   - ESC
   - Gui+Z
-  - Ctl+Gui+Sft+4
+  - Gui+Sft+S
   - Sft+F10
   - {t: ▽, type: trans}
   - Sft+F10
@@ -190,8 +190,8 @@ layers:
   - RCTRL
   - Sft+RCTRL
   - LEFT ALT
-  - Gui+C
-  - Gui+Sft+V
+  - LEFT WIN
+  - ''
   - {t: ▽, type: trans}
   - F13
   - PAGE UP
@@ -497,9 +497,9 @@ combos:
   k: LANGUAGE 1
 - p: [41, 36]
   k: BT
-- p: [19, 20]
-  k: RIGHT GUI
 - p: [18, 19]
+  k: RIGHT GUI
+- p: [19, 20]
   k: RIGHT ALT
 - p: [20, 21]
   k: LEFT SHIFT
