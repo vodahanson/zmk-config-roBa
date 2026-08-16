@@ -16,7 +16,7 @@ layers:
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT GUI}
   - G
-  - Sft+Gui+S
+  - '&mkp MB3'
   - {t: ;, h: BT}
   - H
   - J
@@ -38,7 +38,7 @@ layers:
   - ''
   - LEFT ALT
   - LEFT GUI
-  - '&lang_tapdance'
+  - {t: LANGUAGE 2, h: NUM_com}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
@@ -148,7 +148,7 @@ layers:
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT GUI}
   - G
-  - Sft+Gui+S
+  - '&mkp MB3'
   - {t: ;, h: BT}
   - H
   - J
@@ -170,7 +170,7 @@ layers:
   - ''
   - LEFT ALT
   - LEFT GUI
-  - '&lang_tapdance'
+  - {t: LANGUAGE 2, h: NUM_com}
   - {t: SPACE, h: LEFT SHIFT}
   - {t: TAB, h: sym_com}
   - BACKSPACE
@@ -383,9 +383,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
