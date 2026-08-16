@@ -140,7 +140,8 @@
                 <&tog_off 0 &tog_off 3>,
                 <&macro_wait_time 200>,
                 <&bt BT_SEL 4>,
-                <&macro_wait_time 500>;
+                <&macro_wait_time 500>,
+                <&tog_on 3>;
 
             label = "TO_WIN";
         };
