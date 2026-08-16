@@ -238,7 +238,19 @@
             compatible = "zmk,behavior-tap-dance";
             label = "LANG_TAPDANCE";
             #binding-cells = <0>;
-            bindings = <&lt 6 LANGUAGE_2>, <&kp LANGUAGE_1>;
+            bindings = <&lang_lt 6 LANGUAGE_2>, <&kp LANGUAGE_1>;
+
+            tapping-term-ms = <300>;
+        };
+
+        lang_lt: lang_lt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LANG_LT";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <300>;
         };
     };
 
