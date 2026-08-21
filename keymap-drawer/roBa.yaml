@@ -22,7 +22,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: RCTRL}
+  - {t: '-', h: RIGHT CONTROL}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -34,7 +34,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - {t: /, h: LEFT SHIFT}
   - ''
   - LEFT ALT
   - LEFT GUI
@@ -154,7 +154,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', h: RCTRL}
+  - {t: KP MINUS, h: RCTRL}
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
@@ -166,7 +166,7 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: RIGHT SHIFT}
+  - /
   - ''
   - LEFT ALT
   - LEFT GUI
@@ -461,7 +461,7 @@ layers:
   - '&TO_MAC'
   - '&TO_WIN'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&TO_WIN_W'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -485,12 +485,6 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [7, 8]
   k: LANGUAGE 2
 - p: [1, 2]
@@ -503,3 +497,5 @@ combos:
   k: RIGHT ALT
 - p: [20, 21]
   k: LEFT SHIFT
+- p: [18, 19, 20]
+  k: AltGr+LEFT GUI
