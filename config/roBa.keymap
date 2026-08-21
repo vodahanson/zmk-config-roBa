@@ -289,8 +289,8 @@
         BASE_WIN {
             bindings = <
 &kp Q                             &kp W                             &kp E                        &kp R                        &kp T                                                  &kp Y        &kp U  &lt 9 I    &kp O    &kp P
-&hmr_left_ShiftCrtl RCTRL A       &hmr_left_ShiftCrtl LEFT_SHIFT S  &hmr_left_AltGui LEFT_ALT D  &hmr_left_AltGui LEFT_GUI F  &kp G                 &mkp MB3       &lt 10 SEMICOLON  &kp H        &kp J  &kp K      &kp L    &mt RCTRL KP_MINUS
-&hmr_left_ShiftCrtl LEFT_SHIFT Z  &kp X                             &kp C                        &kp V                        &kp B                 &kp ESC        &lt 6 DELETE      &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&hmr_left_ShiftCrtl RCTRL A       &hmr_left_ShiftCrtl LEFT_SHIFT S  &hmr_left_AltGui LEFT_ALT D  &hmr_left_AltGui LEFT_GUI F  &kp G                 &mkp MB3       &lt 10 SEMICOLON  &kp H        &kp J  &kp K      &kp L    &mt RCTRL A
+&hmr_left_ShiftCrtl LEFT_SHIFT Z  &kp X                             &kp C                        &kp V                        &kp B                 &kp ESC        &lt 6 DELETE      &kp N        &kp M  &kp COMMA  &kp DOT  &mt LS(LEFT_SHIFT) A
 &none                             &kp LEFT_ALT                      &kp LEFT_GUI                 &lt 6 LANGUAGE_2             &mt LEFT_SHIFT SPACE  &lt 7 TAB      &kp BACKSPACE     &lt 4 ENTER                             &kp LANGUAGE_1
             >;
 
